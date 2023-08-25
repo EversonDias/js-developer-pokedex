@@ -1,0 +1,19 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "uma website com informações de pokemon",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EversonDias/js-developer-pokedex.git"
+  },
+  "author": "Everson Dias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EversonDias/js-developer-pokedex/issues"
+  },
+  "homepage": "https://github.com/EversonDias/js-developer-pokedex#readme"
+}
