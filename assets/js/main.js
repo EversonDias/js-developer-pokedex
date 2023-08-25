@@ -49,11 +49,13 @@ function generatePokemonDetails(pokemon) {
             </div>
             <span class="number-detail" >#${pokemon.number.toString().padStart(4, '0')}</span>
         </div>
-        <img class="pokemonImag" src="${pokemon.animated}" alt="${pokemon.name}">
+        <div class="pokemonImag">
+            <img src="${pokemon.animated}" alt="${pokemon.name}">
+        </div>
         <div class="about">
             <ul class="nav-bar">
                 <li class="selected" >About</li>
-                <li>Base Stats</li>
+                <li>Status</li>
                 <li>Evolution</li>
                 <li>Moves</li>
             </ul>

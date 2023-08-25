@@ -6,6 +6,11 @@
     list-style: none;
 }
 
+.content h1{
+    padding-top: 1rem;
+    text-indent: 1rem;
+}
+
 .normal {
     background-color: #a6a877;
 }
@@ -188,7 +193,6 @@
         transform: scale(1);
         position: fixed;
         top: 0;
-        left: 0;
         width: 100vw;
         height: 100vh;
         border-radius: 0;
@@ -253,11 +257,12 @@
 }
 
 .pokemonImag {
-    position: absolute;
-    width: 250px;
+    display: flex;
+    justify-content: center;
     z-index: 3;
-    top: 22vh;
-    left: 15vw;
+}
+.pokemonImag img {
+    width: 250px;
 }
 
 .container-img {
@@ -317,7 +322,6 @@
 .container-button {
     position: absolute;
     top: 0;
-    left: 0;
     display: flex;
     padding: 0.5rem 1rem 0rem 1rem;
     justify-content: space-between;

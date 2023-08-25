@@ -10,15 +10,28 @@ body {
 .content {
     width: 100vw;
     height: 100vh;
-    padding: 1rem;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
+        min-height: 100vh;
+        margin: auto;
         border-radius: 1rem;
+        padding-top: 1.5rem;
+    }
+    .container-button {
+        max-width: 992px;
+        margin-top: 1rem;
+    }
+    .expanded {
+        max-width: 992px;
+    }
+    .pokemons {
+        justify-items: center
+    }
+    .pokemonImag img {
+        min-width: 450px;
     }
 }
